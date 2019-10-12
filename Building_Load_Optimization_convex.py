@@ -1,6 +1,6 @@
 ##############################
 #The Optimization code for building HVAC system
-#Dependencies: Neural_Net_Module.py, training dataset, trained model (optional)
+#Dependencies: Neural_Net.py, training dataset, trained model (optional)
 #Hyper-parameters: 
 #  lr: the learning rate
 #  nb_epoch: The number of initial training epochs
