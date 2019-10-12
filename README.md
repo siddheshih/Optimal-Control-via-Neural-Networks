@@ -24,15 +24,5 @@ convex neural network based approach in a two applications: the building HVAC en
 * Run Building Energy Management
 
 
-## Running Mujoco Case
-* Environment setup 
-** Mujoco
-
-For the setup of Mujoco environment, we refer to https://github.com/nagaban2/nn_dynamics/blob/master/docs/installation.md
-
-** rllab
-
-
-* Model Training
 
 
