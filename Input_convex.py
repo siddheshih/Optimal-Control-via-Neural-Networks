@@ -1,6 +1,6 @@
 ##############################
-#The Optimization code for building HVAC system
-#Dependencies: Neural_Net.py, training dataset, trained model (optional)
+#ICNN code for building HVAC system
+#Dependencies: Neural_Net.py, training dataset from the simulator
 #Hyper-parameters: 
 #  lr: the learning rate
 #  nb_epoch: The number of initial training epochs
@@ -19,7 +19,7 @@ import keras
 import numpy as np
 from numpy import shape
 from keras.optimizers import SGD
-from Neural_Net_Module import rnn_model
+from Neural_Net import rnn_model
 import csv
 import matplotlib.pyplot as plt
 
