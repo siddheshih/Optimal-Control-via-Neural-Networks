@@ -14,6 +14,21 @@ batch_size = 200
 nb_epoch = 30
 controllable_dim=16
 seq_length = 1
+##############################
+#The Optimization code for building HVAC system
+#Dependencies: Neural_Net_Module.py, training dataset, trained model (optional)
+#Hyper-parameters: 
+#  lr: the learning rate
+#  nb_epoch: The number of initial training epochs
+#  controllable_dim: the dimension of vectors partial optimization operates on.
+#  batch_size: training batch size
+#  TEMP_MAX, TEMP_MIN: the constraints on temperature setpoints
+#  seq_length: the inertia considered for building system
+#Code design:
+#(a) Initial training/load trained model: to set up the temporal machine learning model for building HVAC dynamics
+#(b) Optimization w.r.t inputs: Do gradient descents on input controllable variables
+#(c) Optimization algorithm performance analysis
+#############################
 
 ################ Reshape data as RNN sequence #################
 ###############################################################
