@@ -36,4 +36,3 @@ For the setup of Mujoco environment, we refer to https://github.com/nagaban2/nn_
 * Model Training
 
 
-Contact: yizechen@uw.edu, yyshi@uw.edu
