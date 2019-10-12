@@ -124,7 +124,7 @@ if __name__ == '__main__':
     tref_low = tf.placeholder(tf.float32, shape=(None, seq_length, controllable_dim))
     target = tf.placeholder(tf.float32, shape=(None, 1))
 
-    # Define the tempture setpoint upper and lower bound
+    # Define the tempture setpoint upper and lower bounds
     temp_low = TEMP_MIN*np.ones((1,controllable_dim)) #temp setpoint lowest as 20
     temp_low = (temp_low-min_value[0:controllable_dim])/(max_value[0:controllable_dim]-min_value[0:controllable_dim])
     temp_high = TEMP_MAX*np.ones((1,controllable_dim))#temp setpoint highest as 25
